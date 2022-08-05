@@ -1,0 +1,104 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #121214;
+}
+
+.background-img {
+   margin-left: 30%;
+   position: absolute;
+   width: 70%;
+   height: 100%;
+   border-left: 160px solid #121214;
+   padding-left: 5%;
+   background-position: right center;
+   background-image: url(./assets/read_news.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-origin: border-box;
+}
+
+main {
+   width: 55%;
+   padding-left: 30px;
+   position: absolute;
+   top: 10%;
+}
+
+.rocketNewsLogo img {
+   padding-bottom: 60px;
+   width: 60%;
+}
+
+h2 {
+   font-family: 'Work Sans', sans-serif;
+   color: #04D361;
+   font-weight: 700;
+   font-size: 20px;
+}
+
+h3 {
+   font-family: 'League Spartan', sans-serif;
+   color: #E1E1E6;
+   font-weight: 500;
+}
+
+h4 {
+   font-family: 'League Spartan', sans-serif;
+   color: #A8A8A8;
+   font-weight: 400;
+}
+
+label.email {
+   font-family: 'League Spartan', sans-serif;
+   color: #A8A8A8;
+
+}
+
+input.email {
+   margin-top: 20px;
+   height: 40px;
+   padding: 15px;
+   border: none;
+   outline: 0;
+   width: 90%;
+   box-shadow: 6px 3px 10px 1px rgba(0, 0, 0, 0.767);
+}
+
+.sendButton {
+   margin-top: 20px;
+   border: 0 none;
+   outline: 0;
+   background-color: #8257e5;
+   height: 40px;
+   width: 40px;
+   position: absolute;
+   box-shadow: 6px 3px 10px 1px rgba(0, 0, 0, 0.767);
+}
+
+button.sendButton img {
+   filter: invert(100%);
+}
+
+.readFirstlink {
+   text-decoration: none;
+   margin-top: 80px;
+}
+
+.readFirst {
+   font-family: 'League Spartan', sans-serif;
+   color: #8257e5;
+   font-size: 20px;
+}
+
+.arrowSend {
+   padding-left: 5px;
+   position: absolute;
+   display: inline-block;
+   fill-opacity: 0;
+   color: #8257e5;
+}
