@@ -65,7 +65,7 @@ input.email {
    padding: 15px;
    border: none;
    outline: 0;
-   width: 90%;
+   width: 80%;
    box-shadow: 6px 3px 10px 1px rgba(0, 0, 0, 0.767);
 }
 
@@ -101,4 +101,14 @@ button.sendButton img {
    display: inline-block;
    fill-opacity: 0;
    color: #8257e5;
+}
+.recDetail{
+   width: 5px;
+   height: 40px;
+   background-color: #04D361;
+   border: #04D361 solid 2px;
+   
+   display: inline-block;
+   position: absolute;
+   margin-top: 20px;
 }
